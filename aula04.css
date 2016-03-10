@@ -1,0 +1,17 @@
+body{
+	background: black;
+	width:20px;
+	height:20px;
+}
+
+#pai{
+	width: 200px;
+	height: 200px;
+	background: black;
+}
+
+#teste{
+	width: 200px;
+	height: 200px;
+	background: white;
+}

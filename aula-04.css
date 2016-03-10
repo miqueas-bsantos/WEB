@@ -1,0 +1,62 @@
+/*body{
+	background: black;
+	width:20px;
+	height:20px;
+}
+
+#pai{
+	width: 200px;
+	height: 200px;
+	background: red;
+}
+
+#teste{
+	width: 20px;
+	height: 20px;
+	background: white;
+}
+*/
+
+@keyframes brilhar{
+	0%{
+		border-color: rgba(255,255,0,0.5);
+		border-width: 20px;
+	}
+	100%{
+		border-color: rgba(255,255,0,0.1);
+		border-width: 5px;
+	}
+}
+
+body, html{
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	background: black;
+}
+
+.sayajim{
+	animation: brilhar 0.3s infinite alternate;
+	border-style: solid;
+	width: 50px;
+	height: 50px;
+	position: fixed;
+	border-radius: 50%;
+	background: #ff6a6a;
+}
+
+.goku{
+	background:red;
+}
+.vegetta{
+	background:white;
+}
+.gohan{
+	background:purple;
+}
+.pam{
+	background:blue;
+}
+.trunks{
+	background:gray;
+}
